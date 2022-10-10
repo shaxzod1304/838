@@ -1,0 +1,57 @@
+@media(max-width: 1200px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .intensive .box {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .about {
+        background: none;
+    }
+
+    .about_content {
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 992px) {
+    .skills_box {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px
+    }
+}
+
+@media(max-width: 767px) {
+    .promo {
+        height: auto;
+    }
+
+    .title_one {
+        font-size: 22px;
+    }
+
+    .title_two {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 360px) {
+    .title_two {
+        font-size: 45px;
+    }
+
+    .btn {
+        max-width: 100%;
+    }
+
+    .intensive .item, .intensive .item img {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,253 @@
+/* Сброс стилей браузера */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.promo {
+    height: 802px;
+    background: url("../img/main_bg.jpg") no-repeat center top / cover;
+    text-align: center;
+    padding-top: 38px;
+    padding-bottom: 60px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo p {
+    font-size: 21px;
+    font-weight: 300;
+    color: white;
+    margin-top: 22px;
+}
+
+.promo p b {
+    color: #F9BF3B;
+}
+
+.btn {
+    width: 313px;
+    height: 72px;
+
+    /* Градиент */
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    /* тень блока */
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    font-size: 21px;
+    color: #FFFFFF;
+
+    /* Тень текста */
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+
+    border: none;
+    margin-top: 72px;
+    text-transform: uppercase;
+
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.logo span {
+    display: block;
+
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    /* Внешний отступ */
+    margin: 10px 0 53px;
+}
+
+.title_one {
+    font-weight: 900;
+    font-size: 41px;
+    color: #f9bf3b;
+    text-transform: uppercase;
+}
+
+.title_two {
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 80px;
+    margin: 10px 0 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.intensive {
+    background-color: #efefef;
+    padding: 85px 0 75px;
+    text-align: center;
+
+}
+
+.intensive h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #252525;
+    text-transform: uppercase;
+}
+
+.line {
+    width: 220px;
+    height: 4px;
+    background: #F9BF3B;
+    margin: 20px auto;
+}
+
+.intensive h3 {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    color: #4A4A4A;
+}
+
+.intensive .box {
+    margin-top: 45px;
+
+    /* выавнивает блоки в одну линию  */
+    display: flex;
+
+    /* Горизонтали выравнивание flex-блоков   */
+    justify-content: space-between;
+
+    /* Вертикальное выравнивание flex-блоков */
+    align-items: flex-start;
+
+}
+
+.intensive .item {
+    width: 342px;
+}
+
+.about {
+    padding: 108px 0 74px;
+    background: url('../img/woman_bg.png') no-repeat left bottom;
+}
+
+.about_content {
+    padding-left: 380px;
+}
+
+.about_content h2 {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #299CBD;
+    margin-bottom: 25px;
+}
+
+.about_content p {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.flex_box {
+    background: khaki;
+    height: 500px;
+
+    display: flex;
+
+    /* Выравнивание flex-блоков горизонтали*/
+    /* center */
+    justify-content: space-between;
+
+    /* внивание flex-блоков вертикали */
+
+    align-items: flex-start;
+    /* center/flex-end/flex-start/stretch */
+
+    /* Меняет стиль расположения */
+    flex-direction: row;
+
+    /* Перенос элементов на след. строки */
+    flex-wrap: wrap;
+
+
+}
+
+.flex_item {
+    /* height: 100px; */
+    background-color: blue;
+    border: solid 3px #000;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding: 20px;
+
+    width: 300px;
+}
+
+.skills {
+    background: url("../img/second_bg.jpg") no-repeat center top / cover;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 70px;
+}
+
+
+.skills h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.skills_box {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.skills_item {
+    width: 210px;
+}
+
+.skills p {
+    color: #fff;
+    margin-top: 24px;
+}
+
+.skills_img {
+    width: 118px;
+    height: 118px;
+    background: #B4E2FF;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gift {
+    background: #EFEFEF;
+    padding: 88px 0;
+    text-align: center;
+}
+
+.gift img {
+    margin-bottom: 45px;
+}
+
+.gift p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    color: #252525;
+}
